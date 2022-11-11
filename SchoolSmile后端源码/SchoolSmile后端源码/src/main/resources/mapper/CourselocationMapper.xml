@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.faceschool.demo.mapper.CourselocationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.faceschool.demo.entity.Courselocation">
+        <id column="id" property="id" />
+        <result column="courseid" property="courseid" />
+        <result column="latitude" property="latitude" />
+        <result column="longitude" property="longitude" />
+    </resultMap>
+
+</mapper>

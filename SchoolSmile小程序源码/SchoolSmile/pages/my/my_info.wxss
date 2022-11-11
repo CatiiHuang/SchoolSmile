@@ -1,0 +1,69 @@
+/* pages/my/my_info.wxss */
+.top_box{
+  height: 200rpx;
+}
+.top_box .tx{
+  padding-left: 40rpx;
+  color: white;
+}
+.bb{
+  padding-top: 44rpx;
+}
+.txx{
+  width: 140rpx;
+  float: left;
+  margin: 20rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 140rpx;
+}
+.top_box .tx view:first-of-type{
+  font-size: 34rpx;
+  margin-bottom: 6rpx;
+}
+.top_box .tx view:last-of-type{
+  font-size: 24rpx;
+}
+.mycont{
+background-color:#fff;
+margin: 30rpx auto;
+border-radius: 20rpx;
+border: 1px solid snow;
+box-shadow:#cccccc 2rpx 2rpx 2rpx; 
+width: 690rpx;
+}
+bg{
+  background-color:gainsboro;
+}
+.mycont view{
+  padding-left:30rpx;
+  font-size: 30rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-repeat:no-repeat;
+  background-size: 50rpx 50rpx; 
+  background-position:20rpx 12rpx;
+  border-bottom: 1px solid #cccccc;
+}
+.mycont view:last-of-type{
+  border-bottom: none;
+}
+.mycont view text{
+  background-position-y:5px; 
+  display: inline-block;
+  float: right;
+  width: 60rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-repeat: no-repeat;
+  background-size:40%; 
+  margin-right:-10rpx;
+  background-image: ;
+}
+button{
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  width: 690rpx;
+  color: #939393;
+  margin: 40rpx auto;
+}

@@ -1,0 +1,39 @@
+/* pages/template/template.wxss */
+.icon{
+  width:56rpx;
+  height: 54rpx;
+  margin-top: 6rpx;
+}
+.tabBar{
+  width:100%;
+  position: fixed;
+  bottom:0;
+  padding:5rpx 10rpx;
+  background:#Ffffff;
+  font-size:20rpx;
+  color:#8A8A8A;
+  height: 100rpx;
+  box-sizing: border-box;
+  box-shadow: 6rpx 6rpx 6rpx 6rpx #aaa;
+}
+
+ .tabBar-item:first-of-type{
+  float:left;
+  width:33%;
+  text-align: center;
+}
+.tabBar-item:last-of-type{
+  float:right;
+  width:33%;
+  text-align: center;
+}
+
+/*当前字体颜色 选中*/
+.tabBartext{
+color:  #5973f7;
+}
+.aa{
+  color: #2d2d2d;
+  font-size: 20rpx;
+  letter-spacing: 4rpx;
+}

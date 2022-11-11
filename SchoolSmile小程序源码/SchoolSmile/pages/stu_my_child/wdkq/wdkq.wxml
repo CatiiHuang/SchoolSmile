@@ -1,0 +1,12 @@
+<view class="top" style="background-image:url({{bg}})">
+      <view bindtap='left'>左</view>
+      <view bindtap='right'>右</view>
+</view>
+<!--pages/list1/list1.wxml-->
+<view class='page'></view>
+<view class="big_box" wx:for="{{data}}" wx:key="{{index}}">
+    <view class='title'>{{item.cname}}</view>
+    <view class='num'>课程教室：{{item.classroom}}</view>
+    <view class='time BOX'>签到时间：<view>{{item.starttime}}</view></view>
+    <view class='name BOX'>课程教师：{{item.teachername}}</view>
+</view>

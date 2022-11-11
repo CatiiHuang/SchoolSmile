@@ -1,0 +1,17 @@
+<view class='top' style='background-image:url("https://mrbannana.mynatapp.cc/image/wdfk_bg.png");'></view> 
+<view class="page">
+    <view class='box'>
+
+     <view class='box_item' wx:for="{{lists}}" wx:key="{{index}}">
+        <view class='tb' bindtap='look_fk' data-id='{{item.id}}' data-name='{{item.student.name}}'  hover-class='tbS' data-num='{{item.student.snumber}}' data-time='{{item.starttime}}' data-coursename='{{item.coursename}}' data-content='{{item.content}}' style='background-image:url("https://mrbannana.mynatapp.cc/image/mykc.png")'>查看详情</view>
+        <view class='title'>{{item.content}}</view>
+        <view class='name'>反馈学生： {{item.student.name}}</view>
+        <view class='name'>课程名称：{{item.coursename}}</view>
+        <view class='name'>反馈时间：{{item.starttime}}</view>
+     </view>
+
+    
+
+
+    </view>
+</view>

@@ -1,0 +1,92 @@
+/* pages/zysc02.wxss */
+.big_box{
+  padding:40rpx 25rpx 40rpx 25rpx;
+  border-radius: 15rpx;
+  margin:30rpx 50rpx;
+  box-shadow:#cccc 4rpx 6rpx 20rpx;
+
+  background-color: white;
+}
+textarea{
+ 
+  width: 84%;
+  height: 44rpx;
+  padding: 20rpx;
+  font-size: 25rpx;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  border: 2px solid #e4e4e4;
+  margin-top: 30rpx;
+}
+.big_box .left_box{
+  overflow: hidden;
+  padding: 10rpx;
+  margin-bottom: 30rpx;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  box-shadow:#cccccc 1rpx 1rpx;
+  border-radius: 20rpx;
+  width: 450rpx;
+  margin:0 auto; 
+  position: relative;
+  height:600rpx;
+}
+.big_box .left_box view{
+ position: absolute;
+ top: 33%;
+ left: 28%;
+ background-repeat: no-repeat;
+ background-size:180rpx 180rpx;
+ background-position-x: center;
+ height: 200rpx;
+ width: 200rpx;
+}
+.box1{
+   padding: 8rpx;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  box-shadow:#cccccc 1rpx 1rpx;
+  border-radius: 20rpx;
+  height:48.5%;
+  position: relative;
+  margin-bottom:10rpx;
+}
+.box2{
+   padding: 8rpx;
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  box-shadow:#cccccc 1rpx 1rpx;
+  border-radius: 20rpx;
+  height:50%;
+}
+.bg{
+ position: absolute;
+ top: 36%;
+ left: 34%;
+ background-repeat: no-repeat;
+ background-size:75rpx 75rpx;
+ height: 75rpx;
+ width: 75rpx;
+}
+.big_box .right_box{
+  position: relative;
+  width: 230rpx;
+  float: left;
+  height: 600rpx;
+}
+.btn{
+background-color: #4e67b0 !important;
+}
+button{
+  color: white !important;
+  background-color:#5671f6 !important;
+  margin-top: 45rpx;
+  width: 400rpx;
+  line-height: 60rpx;
+  height:60rpx;
+  border-radius: 15rpx;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+}

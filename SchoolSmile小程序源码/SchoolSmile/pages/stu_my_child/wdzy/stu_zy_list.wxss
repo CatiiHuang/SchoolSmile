@@ -1,0 +1,82 @@
+/* pages/look_zy/pgzy.wxss */
+.page{
+  padding: 40rpx 30rpx;
+}
+.box{
+  background-color: #fff;
+  border: 1px solid gainsboro ;
+  padding: 30rpx 25rpx;
+  border-radius: 20rpx;
+}
+.time{
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10rpx;
+}
+.name{
+  width: 600rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  background-position-x:2rpx; 
+  background-size:36rpx 36rpx !important;
+}
+.box>view{
+  font-size: 34rpx;
+  padding-left: 50rpx;
+  background-size: 40rpx 40rpx;
+  background-repeat: no-repeat;
+  background-position-y: 14rpx;
+  font-weight: 600;
+  letter-spacing: 2rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.box>view:last-of-type{
+  font-weight: 400;
+  padding-bottom: 20rpx;border-bottom: 1px solid #cccccc;
+}
+
+.scroll{
+  margin-bottom:6rpx;
+  margin-top: 20rpx;
+  height: 500rpx !important;
+  background-color:#eff2f5 ;
+  border-radius: 15rpx;
+  border: 1px solid #bfbfbf;
+  overflow: hidden;
+  color: #323232!important;
+  font-weight: 400 !important;
+  font-size: 28rpx !important;
+}
+
+text{
+ font-size:30rpx;
+
+}
+ .pl{
+   font-size: 25rpx;
+ }
+ .tea_box{
+   color: #323232!important;
+  font-size: 28rpx !important;
+  line-height: 35rpx!important;
+  margin-top: 15rpx;
+  border-radius: 15rpx;
+  height: 180rpx !important;
+  padding: 20rpx !important;
+  box-sizing: border-box;
+  border: 1px solid #bfbfbf;
+  width: 100%;
+  
+}
+button{
+  margin-top:30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 15rpx;
+  background-color: #5671f6;
+  color:white;
+}
+.time{
+  font-weight: 400 !important;
+}

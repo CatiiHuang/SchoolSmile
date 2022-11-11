@@ -1,0 +1,85 @@
+/* pages/look_zy/pgzy.wxss */
+.page{
+  padding: 40rpx 30rpx;
+}
+.box{
+  background-color: #fff;
+  border: 1px solid gainsboro ;
+  padding: 30rpx 25rpx;
+  border-radius: 20rpx;
+}
+.name{
+  background-size: 34rpx 30rpx !important;
+  background-position-x: 4rpx !important;
+}
+.time{
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 0 !important;
+  margin-top: -20rpx;
+  font-weight: normal !important;
+ 
+
+  }
+.box>view{
+  font-size: 34rpx;
+  padding-left: 50rpx;
+  background-size: 40rpx 40rpx;
+  background-repeat: no-repeat;
+  background-position-y: 14rpx;
+  font-weight: 600;
+  letter-spacing: 2rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.box>view:last-of-type{
+  font-weight: 400;
+  padding-bottom: 20rpx;border-bottom: 1px solid #cccccc;
+}
+
+.scroll{
+  height: 500rpx !important;
+  background-color:#eff2f5 ;
+  border-radius: 15rpx;
+  border: 1px solid #bfbfbf;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  padding-left: 20rpx !important;
+  word-wrap:break-word;
+  padding: 20rpx;
+  font-size: 32rpx;
+}
+.text{
+ font-size:30rpx !important;
+ padding-left: 10rpx !important;
+ background:none !important;
+ height:50rpx !important;
+ letter-spacing: 0 !important;
+ line-height: 50rpx !important;
+ font-weight: 400 !important;
+ display: block !important;
+}
+.text navigator{
+  display: inline-block;
+}
+ .pl{
+   font-size: 25rpx;
+ }
+ textarea{
+   font-size: 30rpx;
+  margin-top: 15rpx;
+  border-radius: 15rpx;
+  height: 180rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  border: 1px solid #bfbfbf;
+  width: 100%;
+
+}
+button{
+  margin-top: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 15rpx;
+  background-color: #5671f6;
+  color:white;
+}

@@ -1,0 +1,19 @@
+<!--pages/look_zy/pgzy.wxml-->
+<view class='page'>
+<form bindsubmit="formSubmit">
+   <view class='box'>
+       <view class='name' style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/looks.png")'>反馈课程:{{coursename}}</view>
+       <view class='time' style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/zy_time.png")'>反馈时间:<text> {{time}}</text></view>
+       <view class='text'>下方为
+         <navigator url='/pages/stu_msg/stu_msg?snumber={{num}}' style='color:#5671f6;'> {{name}}             </navigator> 同学的反馈信息哦
+       </view>
+       
+       <view class='scroll'>
+           {{content}}
+       </view>
+       <textarea name="teachercontent" placeholder='请在这里添加回复信息哦~' placeholder-class='pl'></textarea>
+   </view>
+   <button form-type='submit'>完 成 回 复</button>
+   </form>
+</view>
+

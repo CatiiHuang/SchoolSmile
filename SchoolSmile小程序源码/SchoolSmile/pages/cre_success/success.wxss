@@ -1,0 +1,43 @@
+.big-box{
+   padding-top:300rpx;
+   text-align: center;
+}
+.btn{
+  border:1px solid #3d69ee;
+  margin: 0 auto;
+  width: 300rpx;
+  border-radius: 8rpx;
+  margin-top:22rpx ;
+  font-size: 32rpx;
+  padding: 8rpx 4rpx;
+  color:white;
+  background-color: #567ef6;
+}
+
+.big-box image{
+  margin: 0 auto;
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+}
+.big-box text:first-of-type{
+  font-size: 30rpx;
+  display: block;
+  margin: 14rpx;
+  margin-bottom:2rpx; 
+}
+.big-box text:nth-of-type(2){
+  font-size: 34rpx; 
+}
+.num{
+  color: #648ed8;
+  font-size: 34rpx; 
+}
+.big-box button{
+  background-color:#3d69ee; 
+  letter-spacing: 5rpx;
+  color: white;
+  width: 300rpx;
+  line-height: 70rpx;
+  margin-top: 35rpx;
+}

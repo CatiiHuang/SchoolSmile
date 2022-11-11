@@ -1,0 +1,71 @@
+/* pages/register/register.wxss */
+.logo{
+  height: 220rpx;
+  width: 180rpx;
+  background-size: 100%;
+  margin:0 auto;
+  margin-top: 50rpx;
+  background-repeat: no-repeat;
+}
+page{
+  background-color: #fff;
+}
+.box{
+ width: 650rpx;
+ margin: 0 auto;
+}
+.box form view input{
+  height: 75rpx;
+  font-size: 30rpx;
+  letter-spacing: 6rpx;
+  padding-left: 25rpx;
+  margin: 30rpx 0;
+  border-radius:15rpx; 
+  background-color: #ececec;
+}
+.box form view .img{
+  height: 75rpx;
+  padding-left: 25rpx;
+  margin: 30rpx 0;
+  border-radius:15rpx; 
+  color:#7c7c7c ;
+  background-color: #ececec;
+}
+.box form view .img text{
+  font-size: 20rpx;
+  letter-spacing: 1rpx;
+  display: inline-block;
+  width: 360rpx;
+  position: relative;
+  top: 8rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap; 
+}
+.box form view .img view{
+   font-size: 30rpx;
+   height: 75rpx;
+   line-height: 75rpx;
+  letter-spacing: 6rpx;
+  display: inline-block;
+}
+.box form view button{
+  height: 80rpx;
+  font-size: 40rpx;
+  font-weight:600;
+  color: white;
+  line-height: 80rpx;
+  letter-spacing: 6rpx;
+  margin: 50rpx 0;
+  border-radius:15rpx; 
+  margin-bottom: 20rpx;
+  background-color: #5671f6;
+}
+navigator{
+  margin: 0 auto;
+  width: 350rpx;
+  text-align: center;
+  color: #a1a1a1;
+  font-size: 28rpx;
+  letter-spacing: 4rpx;
+}

@@ -1,0 +1,18 @@
+<!--pages/list1/list1.wxml-->
+<view class='page'>
+<view class="big_box" wx:for="{{list}}" wx:key="{{index}}">
+    <view class='dian'>
+        <view wx:if="{{index==clickId}}">
+        <view catchtap='change' data-cid="{{item.cid}}" id='{{index}}' class="bg" style='background-image:url("{{src2}}");'></view> 
+        </view>
+        <view wx:else>
+        <view catchtap='change' data-cid="{{item.cid}}" id='{{index}}' class="bg" style='background-image:url("{{src1}}");'></view> 
+        </view>
+        <view class='djfk'>点击批改</view>
+    </view>
+    <view class='title'>{{item.cname}}</view>
+    <view class='num'>班级编号：{{item.gradename}}</view>
+    <view class='time BOX'>时间：{{item.starttime}}</view>
+    <view class='name BOX'>教室：{{item.classroom}}</view>
+</view>
+</view>

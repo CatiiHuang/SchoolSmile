@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/stu/stu_index",
+        "pages/cre_map/cre_map",
+   
+    "pages/my/my_info",
+    "pages/my_stu/my_info",
+    "pages/my/my",
+    "pages/my_stu/my_stu",
+    "pages/login/login",
+    "pages/tea/tea_index",
+    "pages/kcqd1/stu_qd",
+    "pages/look_zy/look_zy",
+    "pages/look_zy/pgzy",
+    "pages/cre_success/success",
+    "pages/index/index",
+    "pages/tea/cre_kb",
+    "pages/ktfk/list1",
+
+    "pages/Looks/Looks",
+    "pages/stu_msg/stu_msg",
+    "pages/zysc/zysc",
+    "pages/stu_face/test",
+    "pages/kcqd2/kcqd2",
+    "pages/stu_my_child/wdkq/wdkq",
+    "pages/register/register",
+    "pages/stu_my_child/wdzy/wdzy",
+    "pages/tea_ckfk/list1",
+    "pages/look_fk/fk_list",
+    "pages/look_fk/look_fk",
+    "pages/stu_success/qd_success",
+    "pages/tea_success/success",
+    "pages/stu_my_child/wdfk/stu_fk_list",
+    "pages/create/create",
+    "pages/stu_my_child/wdfk/wdfk",
+    "pages/tea_ckqd/tea_ckqd",
+    "pages/tea_ckzy/list1",
+    "pages/stu_my_child/wdkc/wdkc",
+    "pages/ktfk02/ktfk02",
+    "pages/zysc02/zysc02",
+    "pages/stu/stu_kb"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5671f6",
+    "navigationBarTitleText": "School Smile",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

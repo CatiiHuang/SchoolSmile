@@ -1,0 +1,7 @@
+<view class='big-box'>
+    <image src='https://mrbannana.mynatapp.cc/image/ok.png'></image>
+    <text>课程创建成功</text>
+    <text>您的课程代码为：</text><text class='num'>{{coursecode}}</text>
+    <view class='btn' bindtap='Looks' hover-class='btn_bg'>查看签到</view> 
+    
+</view>

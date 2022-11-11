@@ -1,0 +1,16 @@
+<!--pages/register/register.wxml-->
+<view class='logo' style='background-image:url("https://mrbannana.mynatapp.cc/image/logo.png")'></view>
+<view class='box'>
+ <form bindsubmit='formsubmit'>
+  <view><input name="user" placeholder='请输入学号'></input></view>
+  <view><input name="name" placeholder='请输入姓名'></input></view>
+  <view><input name="bj_num" placeholder='请输入班级号'></input></view>
+  <view><input name="password" type='password' placeholder='请输入密码'></input></view>
+  <view><input name="password_ed" type='password' placeholder='请验证密码'></input></view>
+  <view><view class='img' bindtap='img'> <view>点击上传照片</view><text>{{msg}}</text></view></view>
+  <view><button form-type='submit'>注 册</button></view>
+</form>
+</view>
+<view>
+ <navigator url=''>无法注册，联系我们？</navigator>
+</view>

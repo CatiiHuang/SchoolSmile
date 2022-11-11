@@ -1,0 +1,17 @@
+<!--pages/look_zy/pgzy.wxml-->
+<view class='page'>
+   <view class='box'>
+       <view class='name' style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/looks.png")'>课程名称:{{title}}</view>
+       <view class='time' style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/zy_time.png")'>提交时间:<text>{{time}}</text></view>
+       
+       <scroll-view class='scroll' scroll-y="true">
+           <image src='{{src}}' style='height:600rpx;'></image>
+       </scroll-view>
+       <text>以下为 <text style='color: #5671f6;'>{{tea_name}}</text> 老师的批改信息哦~</text>
+       <view class='tea_box'>
+          {{tea_content}}
+       </view>
+   </view>
+   <button bindtap='back'>返 回</button>
+</view>
+

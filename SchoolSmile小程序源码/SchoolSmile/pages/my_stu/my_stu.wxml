@@ -1,0 +1,18 @@
+<view class="mytop" style='background-image: url("https://mrbannana.mynatapp.cc/image/mybg.png")'>
+   <view class='mytx'>
+   <open-data type="userAvatarUrl"></open-data>
+   </view>
+   <view>{{stu}}同学</view>
+   <view class='ms'>每天都在好好学习~</view>
+</view>  
+<view class='mycont'>
+ <view style='background-image:url("https://mrbannana.mynatapp.cc/image/mymsg.png");' bindtap='wdxx' hover-class='bg'>我的信息 <text></text></view>
+ <view style='background-image:url("https://mrbannana.mynatapp.cc/image/mykq.png");' bindtap='wdkq' hover-class='bg'>我的考勤 <text></text></view>
+ <view style='background-image:url("https://mrbannana.mynatapp.cc/image/mykc.png");' bindtap='wdkc' class='fkk' hover-class='bg'>我的课程 <text></text></view>
+ <view style='background-image:url("https://mrbannana.mynatapp.cc/image/myfk.png");'bindtap="wdfk" class='fkk' hover-class='bg'>我的反馈 <text></text></view>
+ <view style='background-image:url("https://mrbannana.mynatapp.cc/image/myzy.png");'bindtap="wdzy" hover-class='bg'>我的作业 <text></text></view>
+</view>
+<button bindtap='loginout'>退出登录</button>
+<win></win>
+<import src="/template.wxml" />
+<template is="tabbar" data="{{tabbar}}"/>

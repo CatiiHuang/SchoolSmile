@@ -1,0 +1,21 @@
+<!--pages/list1/list1.wxml-->
+<view class='page'>
+<view wx:for="{{list}}"  class="big_box"  wx:key="{{index}}">
+    <view class='dian'>
+        <view wx:if="{{index==clickId}}">
+        <view catchtap='change' data-cid="{{item.cid}}" data-num='{{item.verify}}' id='{{index}}' class="bg" style='background-image:url("{{index==0? src1:src2}}");'></view> 
+        </view>
+        <view wx:else>
+        <view catchtap='change' data-verify="{{item.verify}}" data-num='{{item.gradename}}' id='{{index}}' class="bg" style='background-image:url("{{index==0? src2:src1}}");'></view> 
+        </view>
+        <view class='djfk'>查看签到</view>
+        
+        
+    </view>
+    <view class='title'>{{item.cname}}</view>
+    <view class='num'>班级号：{{item.gradename}}</view>
+    <view class='time BOX'>时间: {{item.starttime}}</view>
+    <view class='name BOX'>地点: {{item.classroom}}</view>
+</view>
+</view>
+

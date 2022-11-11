@@ -1,0 +1,7 @@
+<!--pages/ktfk02.wxml-->
+<view class='title'>请小可爱在下方填写反馈哦~</view>
+<form bindsubmit="formSubmit">
+
+  <textarea name="text" placeholder='请将字符控制在20-300字符之内。请使用良好用语，感谢小可爱的反馈~' placeholder-class='pl' maxlength="300"></textarea> 
+   <button type='deautful' form-type='submit'>提交反馈</button>
+</form>

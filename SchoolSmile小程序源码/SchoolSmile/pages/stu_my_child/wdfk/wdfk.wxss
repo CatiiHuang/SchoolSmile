@@ -1,0 +1,53 @@
+/* pages/stu_my_child/wdfk/wdfk.wxss */
+.top{
+  height: 220rpx;
+  width: 100%;
+  background-size:100%;  
+  margin-top: -130rpx;
+}
+.page{
+  padding: 0 30rpx;
+  
+}
+.box{
+  box-shadow:8rpx 6rpx 26rpx #cccccc;
+  background-color:#fff;
+  border-radius: 20rpx; 
+
+}
+.box_item{
+  padding: 20rpx 30rpx;
+  padding-bottom: 15rpx;
+  border-bottom: 1px solid #cccccc;
+}
+.title{
+ overflow: hidden;
+ text-overflow:ellipsis;
+ white-space: nowrap;
+  width: 70%;
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.name{
+ font-size: 26rpx;
+ color: #8f8f8f;
+ margin-bottom: 6rpx;
+}
+.tbS{
+  color: #8f8f8f;
+}
+.tb{
+  float: right;
+  font-weight: 600;
+  padding-top: 72rpx;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  background-position-x: 35rpx;
+  letter-spacing: 3rpx;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  box-sizing: border-box;
+}
+.box_item:last-of-type{
+  border-bottom: none;
+}

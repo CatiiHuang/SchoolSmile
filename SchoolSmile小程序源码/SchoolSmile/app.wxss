@@ -1,0 +1,65 @@
+/**app.wxss**/
+@import "/template/template.wxss";
+.btn_bg{
+  background-color: #cccccc !important;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+   box-sizing: border-box;
+  background-color: #eff2f5;
+}
+.coLor{
+  color: #bfbfbf;
+}
+.BOX{
+  height: 40rpx;
+  padding-top: 4rpx;
+  box-sizing: border-box;
+  line-height: 40rpx;
+}
+.big_box .title{
+  margin-bottom: 4rpx !important;
+}
+.big_box .num{
+ margin-bottom: 12rpx !important;
+} 
+
+
+
+
+.tabbar_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100rpx;
+    border-top: 1rpx solid #d7d7d7; 
+}
+
+.tabbar_nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28rpx;
+    height: 100%;
+    width: 33%;
+}
+
+.tabbar_icon{
+    width: 50rpx;
+    height:50rpx;
+}
+

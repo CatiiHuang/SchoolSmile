@@ -1,0 +1,16 @@
+<view class='xx' hover-class='xx_hover' bindtap='back'>
+<image src='{{xx}}' class='xx'></image>
+</view>
+<view class='big_box'>
+  <view class='tx'>
+     <image src='{{tx}}'></image>
+     <view>{{stu.student.name}}同学</view>
+  </view>
+  <view>姓名：{{stu.student.name}}</view>
+  <view>学号：{{stu.student.snumber}}</view>
+  <view>所属学院：大数据学院</view>
+  <view>班级：计算机科学3班</view>
+  <view>班级号：{{stu.grade}}</view>
+  <view>到课率：{{daokelv}}</view>
+  <view>作业提交次数：{{stu.homeworkcount}}</view>
+</view>

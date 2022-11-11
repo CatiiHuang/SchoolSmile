@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<button bindtap="chooseimage" style='display:none' class='btn1' type='primary'>获取人脸</button>
+<view class='img_box' style='background-image:url("https://mrbannana.mynatapp.cc/image/face.png");'>
+<view class='tab' bindtap='chooseimage'></view>
+  <image src="{{tempFilePaths}}" mode="aspecFill"/>
+</view>
+<!--..............................-->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <!-- <view class='jz' style='background-image:url("https://mrbannana.mynatapp.cc/image/jz.png"); display:{{display}};'>正在获取位置信息</view> -->
+    <map
+      id="myMap"
+      style="width: 99%; height:99%;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      scale='17'
+      show-location
+    ></map>
+  </view>
+  <view class="btn-area">
+    <button bindtap="finish" style='display:{{dis}}' hover-class='btn_bg' id="btn1" type="primary">开始签到</button>
+  </view>
+</view>

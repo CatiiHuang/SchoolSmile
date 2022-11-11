@@ -1,0 +1,65 @@
+.page-section-gap{
+  width: 700rpx;
+  height: 550rpx;
+  box-sizing: border-box;
+  border-radius: 50rpx;
+  border: 1px dashed #5671f6;
+  padding: 8rpx;
+  position: relative;
+  overflow: hidden;
+  margin: 50rpx 0 25rpx 0;
+}
+.tab{
+  position: absolute;
+  width: 200rpx;
+  top: 20%;
+  left: 20%;
+  height: 200rpx;
+  z-index: 1;
+
+}
+.page-body{
+  margin-bottom: 30rpx;
+  padding: 0 30rpx;
+}
+#btn1{
+  width: 680rpx;
+  height: 80rpx;
+  line-height: 75rpx;
+  background-color: #5671f6;
+  color: white;
+  margin:50rpx auto;
+  font-size: 35rpx;
+}
+.img_box{
+  position: relative;
+  width: 310rpx;
+  height: 420rpx;
+  border: 4rpx dashed #5671f6;
+  border-radius: 25rpx;
+  overflow: hidden;
+  padding: 5rpx;
+  box-sizing: border-box;
+  background-size: 60%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin:25rpx auto;
+}
+.img_box image{
+  width: 100%; 
+  height: 100%;
+  z-index: 99;
+}
+.jz{
+  position: absolute;
+  z-index: 99;
+  padding-top: 80rpx;
+  font-size: 14px;
+  letter-spacing: 1rpx;
+  background-position: 50% 0;
+  background-size:80rpx 80rpx; 
+  background-repeat:no-repeat; 
+  top: 40%;
+  left: 33%;
+  
+}

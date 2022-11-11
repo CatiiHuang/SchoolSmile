@@ -1,0 +1,17 @@
+<!--pages/my/my_info.wxml-->
+<view class='top_box' style='background:url("https://mrbannana.mynatapp.cc/image/top_bg.png")'>
+
+    <view class='tx' >
+     <view class='txx'><open-data type="userAvatarUrl"></open-data></view>
+     <view class='bb'>{{data.name}}同学</view>
+     <view>2017级计算计科学一班</view>
+    </view>
+</view>
+<view class='mycont'>
+ <view bindtap='' hover-class='bg'>账号：{{data.snumber}}<text></text></view>
+ <view bindtap='wdkq' hover-class='bg'>姓名：{{data.name}}<text></text></view>
+ <view bindtap='wdkc' class='fkk' hover-class='bg'>所属学院：大数据学院<text></text></view>
+ <view bindtap="wdfk" class='fkk' hover-class='bg'>班级号：{{num}}<text></text></view>
+ <view bindtap="wdzy" hover-class='bg'>邮箱：21123132132@qq.com<text></text></view>
+</view>
+<button>修改密码</button>

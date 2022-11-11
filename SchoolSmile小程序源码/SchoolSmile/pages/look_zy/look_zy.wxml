@@ -1,0 +1,14 @@
+<!--pages/Looks/Looks.wxml-->
+<view class='mainbox'>   
+  <scroll-view class='bigbox' scroll-y="true">
+    <view class='title' style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/looks.png");'>当前班级作业情况 <text></text></view>  
+
+    <view class='students' wx:for="{{list}}" wx:key="{{index}}">
+         <text class='name'>{{item.studentname}}</text><text class='num'>{{item.snumber}}</text>
+         <navigator url='pgzy?userid={{item.userid}}&id={{item.id}}' class='ok'>单个批改</navigator>
+    </view>
+  
+    
+  </scroll-view>
+   <button bindtap='back'>返回主页</button>
+</view>

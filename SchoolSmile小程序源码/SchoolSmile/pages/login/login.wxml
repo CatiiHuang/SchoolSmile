@@ -1,0 +1,15 @@
+<view class="big-box">
+  <image src='{{logo}}'></image>
+  <view class='mini-box'>
+  <form bindsubmit='formsubmit'>
+      <input class='number-inp' placeholder='账号' placeholder-class='coLor' name="user"></input>
+      <input class='password-inp' placeholder='密码' type='password' placeholder-class='coLor' name="password"></input>
+      <view>
+        <navigator url='/pages/register/register'>注册</navigator>
+        <navigator url=''>忘记密码</navigator>
+      </view>
+      <button form-type='submit' hover-class='bg' type='default'>登录</button>
+  </form>
+  </view>
+</view>
+<view style='width:50px;height:50px'></view>

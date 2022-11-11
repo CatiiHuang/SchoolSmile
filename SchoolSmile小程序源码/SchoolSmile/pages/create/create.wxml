@@ -1,0 +1,12 @@
+
+<view class="big-box">
+  <image src='https://mrbannana.mynatapp.cc/image/logo.png'></image>
+  <form bindsubmit='formsubmit'>
+      <view><input class='names' placeholder='课程名称' placeholder-class='coLor' name="kc_names"></input><text>*</text></view>
+      <view><input class='nums' placeholder='签到教室' placeholder-class='coLor' name="people_room"></input><text>*</text></view>
+      <view><input class='nums' placeholder='班级号' placeholder-class='coLor' name="bj_nums"></input><text>*</text></view>
+       <input class='care' placeholder='课程描述......' placeholder-class='coLor' name="miaoshu"></input>
+      
+      <button form-type='submit' hover-class='btn_bg'>完成创建</button>
+  </form>
+</view>

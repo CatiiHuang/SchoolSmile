@@ -1,0 +1,76 @@
+.top{
+  height: 220rpx;
+  width: 100%;
+  background-size:100%;  
+  margin-top: -130rpx;
+  
+}
+.page{
+  padding: 0 25rpx;
+}
+.bg{
+  background-color: #cccccc;
+}
+.big_box{
+  background-color: #fff;
+  border-radius: 15rpx;
+  border: 1px solid #ccc;
+  box-shadow: snow 2rpx 2rpx 2rpx;
+  padding: 30rpx 0;
+}
+.big_box .title{
+  font-weight: 600;
+  letter-spacing: 2rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-around;
+  border-bottom:1px solid #cccccc; 
+  padding-bottom: 20rpx;
+}
+.item{
+  padding-left: 26rpx;
+   font-weight: 600;
+   letter-spacing: 1rpx;
+   font-size: 30rpx;
+   display: flex;
+   margin: 30rpx 0;
+   color: #6a6a6a;
+   margin-right: 8rpx;
+   justify-content: space-around;
+}
+.item view:first-of-type{
+    width:33%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.item view:nth-of-type(2){
+    width: 21%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.item view:nth-of-type(3){
+    width: 35%;
+    padding-top: 6rpx;
+    letter-spacing: 0;
+    font-size: 22rpx;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    text-align: right;
+}
+.title view{
+  padding-top: 70rpx;
+  background-repeat: no-repeat;
+  background-size: 50rpx;
+  background-position-x: 41rpx;
+}
+button{
+  margin-top: 36rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 25rpx;
+  background-color: #5671f6;
+  color:white;
+}

@@ -1,0 +1,10 @@
+<view class="mainbox">
+<form bindsubmit='formsubmit'>
+  <view class='title'>请输入课程码</view>
+  <view class='inp2'><input class='inp' type='number'maxlength="6" name="qd_num"></input></view>
+  <view class='time1'>您的剩余输入时间为<text class='time2'>{{countDownNum}}</text>秒</view>
+  <view><button class='btn' form-type='submit'>提交</button></view>
+  </form>
+  <view></view>
+</view>
+

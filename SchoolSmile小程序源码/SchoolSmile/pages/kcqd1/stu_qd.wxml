@@ -1,0 +1,31 @@
+<!--pages/list1/list1.wxml-->
+
+
+<view class="big_box" style='background-color:white;margin-bottom: 40rpx;border-radius:20rpx;border-radius: 20rpx; border-top:none' wx:for="{{list}}" wx:key="{{index}}">
+    <view class='dian'>
+        <view wx:if="{{index==clickId}}">
+        <view catchtap='change' data-url="{{item.cid}}" id='{{index}}' class="bg" style='background-image:url("{{src2}}");'></view> 
+        </view>
+        <view wx:else>
+        <view catchtap='change' data-url="{{item.cid}}" id='{{index}}' class="bg" style='background-image:url("{{src1}}");'></view> 
+        </view>
+        <view class='djfk'>点击签到</view>
+    </view>
+    <view class='title'>{{item.cname}}</view>
+    <view class='num'>课程编号：{{item.gradename}}</view>
+    <view class='time BOX'>签到时间：<view>{{item.starttime}}</view></view>
+    <view class='name BOX'>课程教师：{{item.teachername}}</view>
+</view>
+<!-- ********************************* -->
+<view class="big_box" wx:for="{{lists}}" wx:key="{{index}}">
+    <view class='dian'>
+       
+        <view data-url="{{item.cid}}" id='{{index}}' class="bg" style='background-image:url("{{src2}}");'></view> 
+       
+        <view class='djfk'>无法签到</view>
+    </view>
+    <view class='title'>{{item.cname}}</view>
+    <view class='num'>课程编号：{{item.gradename}}</view>
+    <view class='time BOX'>签到时间：<view>{{item.starttime}}</view></view>
+    <view class='name BOX'>课程教师：{{item.teachername}}</view>
+</view>

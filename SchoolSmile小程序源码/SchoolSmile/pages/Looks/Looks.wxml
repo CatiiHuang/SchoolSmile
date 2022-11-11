@@ -1,0 +1,15 @@
+<!--pages/Looks/Looks.wxml--> 
+<view class='mainbox'>   
+  <scroll-view class='bigbox' scroll-y="true">
+    <view class='title' style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/looks.png");'>计科三班签到记录 <text >已签到:{{success}}/{{zs}}</text></view>  
+ 
+    <navigator wx:for="{{list}}" url="/pages/stu_msg/stu_msg?snumber={{item.snumber}}" class='students'  wx:key="{{index}}">
+         <text class='name'>{{item.name}}</text><text class='num'>{{item.snumber}}</text>
+         <text wx:if="{{item.signin==true}}" class='ok'>已签到</text>
+         <text wx:else class="no">未签到</text>
+    </navigator>
+    
+
+  </scroll-view>
+   <button bindtap='back'>返回主页</button>
+</view>

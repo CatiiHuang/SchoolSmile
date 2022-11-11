@@ -1,0 +1,44 @@
+<!--pages/tea/tea_index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" style='height:280rpx;'
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true"> 
+      <block wx:for="{{arr}}" wx:key="{{index}}"> 
+        <swiper-item> 
+            <image src="{{item}}" class="slide-image"/> 
+        </swiper-item> 
+      </block> 
+</swiper>
+
+<view class='big_box'>
+
+    <view hover-class='hover_bg' bindtap='kcqd'>
+       <view class='mini_box'  >
+          <view style='background-image:url({{kcqd}})' ></view>
+       </view>
+       <text>课程签到</text>
+    </view>
+   
+    <view hover-class='hover_bg' bindtap='ckkb'>
+       <view class='mini_box' >
+          <view style='background-image:url({{ckkb}})'></view>
+       </view>
+       <text>查看课表</text>
+    </view>
+
+    <view hover-class='hover_bg' bindtap='zysc' >
+       <view class='mini_box' >
+          <view style='background-image:url({{zysc}})'></view>
+       </view>
+       <text>作业上传</text>
+    </view>
+
+    <view hover-class='hover_bg' bindtap='ktfk'>
+       <view class='mini_box' >
+          <view style='background-image:url({{ktfk}})'></view>
+       </view>
+       <text>课堂反馈</text>
+    </view>
+</view>
+
+<win></win>
+<import src="/template.wxml" />
+<template is="tabbar" data="{{tabbar}}"/>

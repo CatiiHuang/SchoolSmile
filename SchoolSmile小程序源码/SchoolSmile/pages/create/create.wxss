@@ -1,0 +1,48 @@
+/* pages/create/create.wxss */
+page{
+  background-color: white;
+}
+.big-box image{
+  display: block;
+  margin: 0 auto;
+  width: 190rpx;
+  height: 190rpx;
+}
+.btn view{
+ color: #657ef6;
+ display: inline-block
+}
+.big-box{
+  padding: 120rpx 120rpx;
+}
+.big-box form view{
+  width: 560rpx;
+}
+.big-box form view text{
+  color: red;
+  position: relative;
+  top: -7rpx;
+  left: 12rpx;
+
+}
+.big-box form input{
+  width: 480rpx;
+  padding-left:35rpx; 
+  font-size: 35rpx;
+  height: 64rpx;
+  background-color:#ececec;
+  border: 1px solid whitesmoke;
+  border-radius: 15rpx;
+  margin-top: 65rpx;
+  display:inline-block;
+}
+.big-box button{
+  color: white;
+  background-color:#5367f5;
+  width: 500rp;
+  letter-spacing: 0rpx;
+  line-height: 65rpx;
+  font-size: 35rpx;
+  margin-top: 70rpx;
+  border-radius:15rpx;
+}

@@ -1,0 +1,110 @@
+
+.plus{
+  z-index: 9999;
+  height: 90rpx;
+  width: 90rpx;
+  position: absolute;
+  bottom:0;
+  margin: auto;
+  left: 0;
+  bottom: 54rpx;
+  right: 0; 
+}
+.win{
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  background-color:#657ef6;
+}
+
+
+/*  */
+/**index.wxss**/
+
+/**index.wxss**/
+
+.flex-item {
+  width: 95rpx;
+  height: 100px;
+}
+
+.kcb-item {
+  position: absolute;
+  padding-top: 50rpx;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.smalltext {
+  text-align: center;
+  font-size: 8pt;
+  color: #fff;
+ 
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35rpx;
+  
+  background-color: #657ef6;
+  color: white;
+}
+
+.top-text {
+  width: 100rpx;
+  height: 35rpx;
+  font-size: 22rpx !important;
+  letter-spacing: 2rpx;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.scroll {
+  height: 1400rpx;
+  z-index: 101;
+  position: fixed;
+  background-color: #eff2f5;
+}
+
+.left {
+  width: 35rpx;
+  height: 100rpx;
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.weekTables{
+  height: 80rpx;
+  width:100%;
+  color: #657ef6;
+  letter-spacing: 2rpx;
+  background-color:whitesmoke;
+  overflow:scroll;
+  white-space:nowrap;
+  box-shadow: 0px 10px 10px rgba(10,10,10,.1);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.weeks{
+  width: 150rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  display: inline-block;
+  line-height: 80rpx;
+  text-align: center;
+}
+.update{
+  color:#395462;
+  font-weight:800;
+  border-bottom:4px solid #395462;
+  box-sizing:border-box;
+}
+.smalltext{
+  width: 100%;
+  display: block;
+}

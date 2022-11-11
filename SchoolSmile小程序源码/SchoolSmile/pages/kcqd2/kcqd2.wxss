@@ -1,0 +1,25 @@
+/* pages/kcqd2/kcqd2.wxss */
+.mainbox{
+  text-align: center;
+  padding: 200rpx 150rpx;
+}
+.title{
+  font-size: 45rpx;
+  letter-spacing: 15rpx;
+}
+
+.inp2{
+   margin: 30rpx 0 40rpx 0;
+  border-bottom: 1px solid #cccccc;
+}
+.time1{
+  font-size: 25rpx;
+  text-align:center;
+}
+.time2{
+  color:skyblue;
+}
+.btn{
+  width: 80%;
+  margin-top: 20%;
+}

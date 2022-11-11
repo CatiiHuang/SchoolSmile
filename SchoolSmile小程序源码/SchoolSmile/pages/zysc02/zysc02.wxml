@@ -1,0 +1,15 @@
+<!--pages/my_stu/my_stu.wxml-->
+<form bindsubmit='ljsc'>
+<view class='big_box'> 
+   <view class='left_box'>
+    <view  style='background-image:url("https://mrbannana.mynatapp.cc/image/sc01.png");display:{{pic1}}' bindtap='pic1'></view>
+     <image src="{{images}}" mode="aspecFill" style="width: 100%; height: 100%"/>
+   </view>
+   <textarea placeholder='请填写作业名称' name="name"></textarea>
+</view>
+
+
+
+<button class='ljsc' type="primary" form-type='submit' hover-class='btn' bindtap='ljsc'>立即上传</button>
+</form>
+<button class='ljsc' type="primary" hover-class='btn' bindtap='rest'>重新选择</button>

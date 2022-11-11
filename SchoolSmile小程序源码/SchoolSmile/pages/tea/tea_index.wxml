@@ -1,0 +1,59 @@
+<!--pages/tea/tea_index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" style='height:280rpx;'
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true"> 
+      <block wx:for="{{arr}}" wx:key="{{index}}"> 
+        <swiper-item> 
+            <image src="{{item}}" class="slide-image"/> 
+        </swiper-item> 
+      </block> 
+</swiper>
+
+<view class='big_box'>
+
+    <view hover-class='hover_bg' bindtap='kbqd'>
+       <view class='mini_box'  >
+          <view style='background-image:url({{kbqd}})' ></view>
+       </view>
+       <text>课表签到</text>
+    </view>
+   
+    <view hover-class='hover_bg' bindtap='cjkc'>
+       <view class='mini_box' >
+          <view style='background-image:url({{cjkc}})'></view>
+       </view>
+       <text>创建考勤</text>
+    </view>
+
+    <view hover-class='hover_bg' bindtap='qdqk'>
+       <view class='mini_box' >
+          <view style='background-image:url({{qdqk}})'></view>
+       </view>
+       <text>签到情况</text>
+    </view>
+
+    <view hover-class='hover_bg' bindtap='zypg'>
+       <view class='mini_box' >
+          <view style='background-image:url({{zypg}})'></view>
+       </view>
+       <text>作业批改</text>
+    </view>
+
+    <view hover-class='hover_bg' bindtap='ckfk'>
+       <view class='mini_box' >
+          <view style='background-image:url({{hffk}})'></view>
+       </view>
+       <text>回复反馈</text>
+    </view>
+    
+     <view>
+       <view class='mini_box' >
+          <view style='background-image:url({{more}})'></view>
+       </view>
+       <text>敬请期待</text>
+    </view>
+    
+</view>
+<!-- 课表组件 -->
+<win></win>
+<import src="../../template/template.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>

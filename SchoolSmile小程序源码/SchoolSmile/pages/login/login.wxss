@@ -1,0 +1,81 @@
+/* pages/login/login.wxss */
+page{
+  height: 100%;
+  
+  background-color: #fff !important;
+ 
+}
+navigator{
+  color: 4e4e4e;
+  margin-top:25rpx;
+  font-size: 14px;
+}
+.bg{
+  background-color: #cccccc !important;
+}
+.big-box{
+  background-color:white;
+  border-radius: 15rpx;
+  padding-top: 100rpx;
+  box-sizing: border-box;
+}
+.big-box image{
+  width:190rpx;
+  height: 190rpx;
+  margin: 0 auto;
+  display: block;
+
+}
+.mini-box{
+  width: 650rpx;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-bottom: 180rpx;
+}
+input{
+  font-size: 30rpx;
+}
+.mini-box .number-inp{
+  margin-top: 130rpx;
+  height: 70rpx;
+  background-color: #ececec;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAAAW1JREFUOI2F0z9IlVEcxvHPq69ckaAEEZpaagqaJKRNhMC5oeGCixFEk4MtEWUoJCjWUBooDWlCELT0j6y7WFAtRU5SEQkSCP7hLiLS63DOhZfLe7u/7fd73+d7zvOcc5JKpaKg+jGGXqzhNhaLfmwpmF3BMtpwF7+wgPtFgLSuP4UHccWbufkAXmIFS//bwTB26sTwKopHm1k4iR9FW8UXHGsGWEZPA0AZq80AM/iNN+iMsxQP0S1YHMd7fMLZ+hCruBg/bkXYcZTQh2/4irf4gGo94DLu4A8+YhfreIQNnMA/tKMLpTxgAtcwievYL8jhb5x/F8Ku1jIoR3EZIw3EcCGuflo41p9p9LeAx3jSQAjnhes8iyP4jOEUgzn/IMsykCRJHvAUr4WrDpuYTnEVz7FXEzaoo9jO9VuEMz6DgyzLhqKdWpWEl/gi9pcwJwS5i1uYTPEO55IkuYfWHKAdz3KAeXRgSnipY7hxCPcyWK8h3CxNAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 36rpx ;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 1px whitesmoke;
+  border-radius: 15rpx;
+  padding-left: 100rpx;
+}
+.mini-box .password-inp{
+   background-color: #ececec;
+  margin-top: 60rpx;
+  height: 70rpx;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAkCAYAAACe0YppAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxMzggNzkuMTU5ODI0LCAyMDE2LzA5LzE0LTAxOjA5OjAxICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+IEmuOgAAAqdJREFUWIW910uoVVUcx/HPup6I28AkkauQiqTZDSJSvNyJEwcp6iBKcKDYRHwEUiGVA52XItgkxUAHcoV8BEIEPfSCExFrkhCKiROxSMWbDxSUsxusfXS5PWfffc49xx8c9np/1+P/X+t/wujoqDJlWQZCCLAw/y3CfPTjH1zEaZzHldIBc9WqNMImbMA7LepXYmue/g7f4mTZgH3jAJeEEP4KIewtQG/gD5zDBTxI6lbjVxzD1E7An4mzfi3PX8fXWIFZeBtDWZYNYjbWYSTp/4G49QvbAX+JnUl+D+bgE/yI+4X2/+IQ1mIuTuTlM/AbFlcBb8QXSX4ZPsW9FpMs6jLew7ak7GQ+iZbgAexL8u/ip4rAor5K4C/ge0xqBT6QpDfilw6hKfxInh4Wd+8Z8HQsz9NnsL/KyLl/l2ktruERrjYKUz/+KElvrwKtqId4HZPxdzPwuvx7Cae6CCYa5lPGmW71QP4tvXG6pXTFb4n+dvB5g8dwHPPwSo94fbiL8zXRsX/Agh7BmulYHw4/ZyisqolnS7x/d+MmMozroG0oE7f5TazHgxruiM/XWezoIuxZepYJIaxBf18+G6o/Ah2pXq+r1+uyLLvN035cNRpJNYzB8RoVwqdJRXA7GhSP5gz+xDdl0AY4VafgExhK8pvFiKUStFPwq+IlU9SWdgbpBHy3RfnlXoPHsKtJ+ce9BsPnnkSUj7BUDHcfq+x8JwImxtTEh/7ndjtPBDwtGWNaWcNug1/Kvy+iXqwMIZTGYxMBj+A/MWK51axBGTy9JltbQnP9jpniI9NSDXDR0NIVP2wTbDxoCk9WXieuuAEfaNapW0rgLzfAU/K6ITHmutFD/huiMd6vifHWmrzi/R5CU/XX8KFoWMPiDrRrZO0oiH/ij/4PwyeZoE+siV4AAAAASUVORK5CYII=");
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 36rpx ;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 1px whitesmoke;
+  border-radius: 15rpx;
+  padding-left: 100rpx;
+}
+.mini-box form view{
+  display: flex;
+  margin:30rpx 0 50rpx 0;
+  justify-content: space-between;
+  color: #4e4e4e;
+  font-size: 30rpx;
+}
+.mini-box form button{
+  font-weight: bold;
+  text-align: center;
+  line-height: 70rpx;
+  letter-spacing: 6rpx;
+  border-radius: 17rpx;
+  background-color:#5671f6; 
+  color:white;
+  font-size: 30rpx;
+
+}

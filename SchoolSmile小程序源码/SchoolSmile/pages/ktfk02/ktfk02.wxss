@@ -1,0 +1,34 @@
+ /* pages/ktfk02.wxss */
+ textarea{
+   height: 400rpx;
+   width: 650rpx;
+   border: 2px dashed #5671f6;
+   border-radius: 20rpx;
+   margin:0 auto;
+   padding: 5rpx 10rpx;
+   font-size: 34rpx;
+   box-sizing: border-box;
+ }
+ .pl{
+   font-size: 20rpx;
+   letter-spacing: 3rpx;
+ }
+ button{
+   height: 75rpx;
+   width: 650rpx;
+   color: white;
+   line-height: 75rpx;
+   letter-spacing: 2rpx;
+   font-weight: 600;
+   border-radius: 20rpx;
+   background-color:  #5671f6;
+   margin:40rpx auto;
+   font-size: 36rpx;
+ }
+ view{
+   width: 650rpx;
+   font-size: 34rpx;
+   font-weight: 500;
+   letter-spacing: 4rpx;
+   margin: 20rpx auto;
+ }

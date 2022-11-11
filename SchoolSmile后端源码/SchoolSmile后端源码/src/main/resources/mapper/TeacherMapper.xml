@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.faceschool.demo.mapper.TeacherMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.faceschool.demo.entity.Teacher">
+        <id column="tid" property="tid" />
+        <result column="tname" property="tname" />
+        <result column="tnumber" property="tnumber" />
+        <result column="tpassword" property="tpassword" />
+    </resultMap>
+
+</mapper>

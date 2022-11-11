@@ -1,0 +1,18 @@
+<view class='top' style='background-image:url("https://mrbannana.mynatapp.cc/image/wdzy_bg.png");'></view> 
+<view class='page'>
+  <view class='big_box'>
+     <view class='title'>
+        <view style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/zy_name.png")'>作业名称</view>
+        <view style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/zy_kcb.png")'>课程名称</view>
+        <view style='background-image:url("https://mrbannana.mynatapp.cc/image/icon/zy_time.png")'>提交时间</view>
+     </view>
+     <scroll-view style='height:700rpx;'scroll-y="true">
+     <view class='item' wx:for="{{lists}}" wx:key="{{index}}" bindtap='turn' data-id='{{item.id}}' hover-class='bg'>
+        <view>{{item.name}}</view>
+        <view>{{item.coursename}}</view>
+        <view>{{item.starttime}}</view>
+     </view> 
+    </scroll-view>
+  </view>
+      <button bindtap='back'>返 回</button>
+</view>

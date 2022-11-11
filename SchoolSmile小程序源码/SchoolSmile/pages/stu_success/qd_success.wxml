@@ -1,0 +1,8 @@
+<view class='big-box'>
+    <image src='https://mrbannana.mynatapp.cc/image/qd_success.png'></image>
+    <text>{{msg}}</text> 
+   
+</view>
+<view>
+ <button bindtap='turn' class='btn' hover-class='btn_bg' >点击返回首页</button>  
+ </view>

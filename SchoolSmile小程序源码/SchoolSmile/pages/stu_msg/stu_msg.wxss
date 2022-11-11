@@ -1,0 +1,39 @@
+/* pages/stu_msg/stu_msg.wxss */
+.big_box{
+  margin:170rpx 100rpx 0 100rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  padding: 40rpx 60rpx;
+  background-color: #fff;
+  box-shadow:8rpx 6rpx 26rpx #cccccc;
+  padding-bottom:80rpx;
+}
+.xx_hover{
+  background-color: #9b9c9c;
+}
+.xx{
+  border-radius: 50%;
+  width: 60rpx;
+  height: 60rpx;
+  position: fixed;
+  left: 5%;
+  top: 5%
+}
+.big_box>view{
+  border-bottom: 1rpx solid #bfbfbf;
+  padding: 14rpx 0;
+  font-size: 32rpx;
+}
+.tx image{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 0 auto;
+  display: block;
+}
+.tx view{
+  text-align: center;
+  font-size: 34rpx;
+  letter-spacing: 2rpx;
+  font-weight: 600;
+  margin-top: 16rpx;
+}
